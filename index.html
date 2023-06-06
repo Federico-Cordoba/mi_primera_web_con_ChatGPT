@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High View - Filmación de Eventos Sociales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>High View - Filmación de Eventos Sociales</h1>
+    <p>¡Capturamos los momentos más especiales de tus eventos sociales!</p>
+    <p>Ofrecemos servicios profesionales de filmación para bodas, fiestas de quinceañera, graduaciones y mucho más.</p>
+    <form id="contact-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" rows="8" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <a href="#" class="cta-button" id="verGaleriaButton">Ver Galería</a>
+  </div>
+  
+  <div id="galeria" class="container">
+    <h2 class="galeria-titulo">Galería de Eventos Anteriores</h2>
+    <div class="carousel">
+      <img src="imagenes/imagen1.jpg" alt="Imagen 1">
+      <img src="imagenes/imagen2.jpg" alt="Imagen 2">
+      <img src="imagenes/imagen3.jpg" alt="Imagen 3">
+      <img src="imagenes/imagen4.jpg" alt="Imagen 4">
+      <img src="imagenes/imagen5.jpg" alt="Imagen 5">
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-button prev-button">Anterior</button>
+      <button class="carousel-button next-button">Siguiente</button>
+      <button class="carousel-button fullscreen-button">Pantalla Completa</button>
+      <button class="carousel-button close-button">Cerrar</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Creado por Federico Córdoba en el año 2023</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
